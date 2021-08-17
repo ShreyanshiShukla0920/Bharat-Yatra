@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:cursive;
+}
+body{
+    background-image:url("images/tour5.jpg");
+    background-repeat:no-repaeat;
+    background-size:cover;
+    height:100%;
+    opacity:0.8;
+}
+h1{
+    color:firebrick;
+    font-size:300%;
+   
+}
+h2{
+    text-align:center;
+}
+h3{
+    text-align:center;
+    color:crimson;
+    font-size:120%;
+}

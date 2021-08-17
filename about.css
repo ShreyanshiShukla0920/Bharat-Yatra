@@ -1,0 +1,59 @@
+.heading{
+    font-size:500%;
+    font-style:oblique;
+    color:whitesmoke;
+    margin-top:0 auto;
+    text-align:center;
+    background-color:dimgray;
+    width:100%;
+    height:50%;
+}
+.image{
+    display:inline-block;
+}
+.main h2{
+    display:block;
+}
+.image img{
+    width:40%;
+    margin-top:5%;
+    margin-left:70%;
+    border-radius:50%;
+    
+    
+}
+
+.image h2{
+    font-size:200%;
+    font-style:italic;
+    color:whitesmoke;
+    margin-left:80%;
+}
+.main{
+    background-color:darkgray;
+    display:inline-block;
+}
+.intro h1{
+    font-size:300%;
+    font-style:oblique;
+    color:dimgray;
+    text-align:center;
+    
+}
+.intro p{
+    text-align:center;
+    font-style:italic;
+    font-size:120%;
+    color:whitesmoke;
+}
+.contact h1{
+    font-size:300%;
+    font-style:oblique;
+    color:dimgray;
+    text-align:center;
+    
+}
+.contact h3{
+    text-align:center;
+    color:whitesmoke;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ADMIN</title>
+
+<body>
+    <style>
+        body {
+            width: 100%;
+            height: 100vh;
+            background: url(phot.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            display: table;
+            font-family: Quicksand;
+        }
+
+        table {
+            top: 50%;
+            background-color: black;
+            border: 2px solid white;
+            border-radius: 20px;
+            background: rgb(0, 0, 0, 0.5);
+        }
+
+        input::-webkit-input-placeholder {
+            font-size: 20px;
+            line-height: 3;
+            color: white;
+        }
+
+        #type {
+            width: 300px;
+            height: 32px;
+            border: 0;
+            background: transparent;
+            border-bottom: 3px solid white;
+            color: white;
+            font-size: 25px;
+
+        }
+
+        .btn {
+            width: 250px;
+            height: 40px;
+            font-size: 25px;
+            font-style: bold;
+            background-color: cornflowerblue;
+        }
+
+    </style>
+    <br><br><br>
+    <div class="header">
+        <h1 align="center"><b>ADMIN LOGIN</b></h1>
+        <table align="center" width="25%" border="0" cellspacing="20">
+            <tr>
+                <td align="center"><img src="admin.png" width="45%"></td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Email" id="type"></td>
+            </tr>
+            <tr>
+                <td><input type="Password" placeholder="Password" id="type"></td>>
+            </tr>
+            <tr>
+                <td align="center"><b><input type="button" value="Login" class="btn"></b></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</head>
+
+</html>
